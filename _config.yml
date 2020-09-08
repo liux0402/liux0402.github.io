@@ -22,7 +22,7 @@ user:
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
   job: Interesting soul 
-  aboutme: true # Eating and drinking diary.
+  aboutme: Eating and drinking diary. # Eating and drinking diary.
 
 exclude:
   - README.md

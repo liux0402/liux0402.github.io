@@ -22,7 +22,7 @@ user:
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
   job: Doubaobao and Happyhan 
-  aboutme: Enjoy life. # Eating and drinking diary Enjoy life..
+  aboutme: True # Eating and drinking diary Enjoy life..
 
 exclude:
   - README.md

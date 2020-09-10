@@ -4,7 +4,7 @@ categories: [dev]
 comments: true
 ---
 
-### 载入整个模型结构 h5
+### 载入整个模型结构keras.models.load_model     h5
 ```python
 from tensorflow.python.keras.models import load_model, save_model
 model = load_model('model.h5', custom_objects)

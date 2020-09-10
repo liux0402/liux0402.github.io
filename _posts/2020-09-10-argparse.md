@@ -1,0 +1,52 @@
+---
+title: python  Argparse package
+categories: [dev]
+comments: true
+---
+### argparse 可以用来编写命令行接口、并解析传入参数。
+
+```python
+# 首先导入package
+import argparse
+
+# 接下来创建argparse对象
+parser = argparse.ArgumentParser(description='argparse简单流程')
+
+# 生成解析器后，调用add_argument()方法添加参数
+# type -- 命令行参数应被转换成的类型
+# help -- 描述
+parser.add_argument('square', type=int, help='display a square of number')
+
+# 使用 parse_args() 解析参数
+args = parser.parse_args()
+```
+
+### 简单示例
+
+``` python
+导入
+import argparse
+
+创建对象&参数&解析
+parser = argparse.ArgumentParser()
+parser.add_argument('add1', help='add 2 num', type=str)
+parser.add_argument('add2', help='add 2 num', type=str)
+args = parser.parse_args()
+
+求和方法
+def add_2_num(args1, args2):
+    a = int(args1)
+    b = int(args2)
+    return a + b
+
+输出
+print(add_2_num(args.add1, args.add2))
+```
+
+接下来在terminal 输入执行py命令
+
+``` javascript
+input :      python test.py 3 6
+output:            9
+
+```

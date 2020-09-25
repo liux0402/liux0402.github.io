@@ -18,7 +18,7 @@ comments: true
 ##### bit-wise : f (w1 * a1 * a2, w2 * b1 * b2, w3 * c1 * c2)
 ##### vector-wise : f（w * (a1 * a2, b1 * b2, c1 * c2 )）
 ```python
-xDeepFM:显式特征交互: CIN  压缩交互网络
+xDeepFM:显式特征交互: CIN  压缩交互网络  vector-wise
 隐式特征交互: DNN  典型的bit-wise
 ```
 
